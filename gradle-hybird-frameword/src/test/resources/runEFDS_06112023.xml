@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EFDS">
+	
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentTestListener" />
+		<listener class-name="reportConfig.ExtentTestListener" />
+		<listener class-name="reportConfig.AllureTestListener" />
+	</listeners>
+	
+	
+  	  <parameter name="url" value="https://efds.dev.jit.vn/#/auth/login" />
+  	  
+  	  <test name = "Run on FIREFOX">
+			<parameter name="browser" value="firefox" />
+    	<classes>
+      <class name="efds.Level_01_New_Regional" />
+    </classes>
+  </test> 
+</suite> 
