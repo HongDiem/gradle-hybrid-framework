@@ -1,1 +1,0 @@
-{"uuid":"615f274b-696a-42d2-aa63-3be3b98142bc","name":"EFDS","children":["e0959c3e-e7d8-4c2b-ac41-e2dc16954b86"],"befores":[{"name":"initBeforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1699525129942,"stop":1699525129962}],"afters":[],"start":1699525129922,"stop":1699525167763}
